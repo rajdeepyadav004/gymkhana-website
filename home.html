@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Gymkhana</title>
+	<link rel = "icon" type = "image/png" href = "logos/iitb.png">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: Calibri;, Helvetica, sans-serif;
+			margin: 0;
+		}
+
+		/* Style the header */
+		.header {
+			padding: 40px;
+			text-align: center;
+			background: #EDCF38	;
+			color: white;
+		}
+
+
+		/* Increase the font size of the h1 element */
+		.header h1 {
+			font-size: 40px;
+		}
+
+
+		/* Style the top navigation bar */
+		.navbar {
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		/* Style the navigation bar links */
+		.navbar a {
+			float: left;
+			display: block;
+			color: white;
+			text-align: center;	
+			padding: 14px 20px;
+			text-decoration: none;
+		}
+
+		/* Right-aligned link */
+		.navbar a.right {
+			float: right;
+		}
+
+		/* Change color on hover */
+		.navbar a:hover {
+			border-radius: 10px;
+			background-color: #ddd;
+			color: black;
+		}
+
+		/* Column container */
+		.row {  
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		/* Create two unequal columns that sits next to each other */
+		/* Sidebar/left column */
+		.side {
+			flex: 25%;
+			background-color: #F4EFEA;
+			padding: 20px;
+		}
+
+		/* Main column */
+		.main {   
+			font-size: 25px;
+			flex:50%;
+			background-color: #F4EFEA;
+			padding: 20px;
+		}
+
+		/* Fake image, just for this example */
+		.fakeimg {
+			background-color: #aaa;
+			width: 100%;
+			padding: 20px;
+		}
+
+		/* Footer */
+		.footer {
+			padding: 20px;
+			text-align: center;
+			background: #ddd;
+		}
+
+		table {
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		td, th {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding: 8px;
+		}
+
+		tr:nth-child(even) {
+			background-color: #dddddd;
+		}
+
+		/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 700px) {
+			.row {   
+				flex-direction: column;
+			}
+		}
+
+		/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+		@media screen and (max-width: 400px) {
+			.navbar a {
+				float: none;
+				width:100%;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<h1>Gymkhana</h1>
+		<p></p>
+	</div>
+
+	<div class="navbar">
+		<div class="navbar">
+		<a href="home.html">Home</a>
+		<a href="officebearers.html">Office Bearers</a>
+		<a href="calendar.html">Institute Calender</a>
+		<a href="SAC-Constitution-March-2018.pdf">Sac Constitution</a>
+	</div>
+	</div>
+
+	<div class="row">
+ <!--  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+</div> -->
+<div class="main">
+	<p>The Students’ Gymkhana along with its infrastructure is an organization to foster and develop all student activities in the Institute. It aims at promoting and developing organizational abilities in students. It has been successful over the years in evolving a well-informed, articulate and participatory student community life. It has been instrumental in identifying student issues and promoting discussion on them. It functions as the office for all election and nominations of students for gymkhana activities. The official year for all working shall be from the first day of April to the thirty-first day of March of the ensuing Calendar Year. This is also the period during which student officials of the Gymkhana hold tenure. 
+	</p>
+</div>
+<div class="side">
+	<a href="http://gymkhana.iitb.ac.in/hostels/">
+		<img src="logos/HA.png" style="width:200px; height:150px" title="White flower" alt="Flower">
+	</a>
+	<a href="http://gymkhana.iitb.ac.in/~cultural/">
+		<img src="logos/CA.png" style="width: 200px; height: 150px" title="White flower" alt="Flower">
+	</a>
+	<a href="http://sarc-iitb.org/">
+		<img src="logos/Sarc.png" style="width: 200px; height: 150px" title="White flower" alt="Flower">
+	</a>
+	<a href="http://www.moodi.org/">
+		<img src="logos/MI.png" style="width: 200px; height: 150px" title="White flower" alt="Flower">
+	</a>
+	<a href="http://www.techfest.org/">
+		<img src="logos/TF.png" style="width: 200px; height: 150px" title="White flower" alt="Flower">
+	</a>
+	<a href="http://www.abhyudayiitb.org/">
+		<img src="logos/Abhyday.png" style="width: 200px; height: 150px" title="White flower" alt="Flower">
+	</a>
+</div>
+<div class="side">
+	<a href="http://gymkhana.iitb.ac.in/~ugacademics/">
+		<img src="logos/UG.png" style="width: 200px; height: 150px" title="White flower" alt="Flower">
+	</a>
+	<a href="http://gymkhana.iitb.ac.in/~academics/pgac">
+		<img src="logos/PG.png" style="width: 200px; height: 150px" title="White flower" alt="Flower">
+	</a>
+	<a href="http://stab-iitb.org/">
+		<img src="logos/stab1.png" style="width: 200px; height: 150px" title="White flower" alt="Flower">
+	</a>
+	<a href="http://ecell.in/">
+		<img src="logos/ecell1.png" style="width: 200px; height: 150px" title="White flower" alt="Flower">
+	</a>
+	<a href="http://www.insightiitb.org/">
+		<img src="logos/Insight1.png" style="width: 200px; height: 150px" title="White flower" alt="Flower">
+	</a>
+	<a href="http://www.iitb.ac.in/students/aawaaz.html">
+		<img src="logos/aawaaz1.png" style="width: 200px; height: 150px" title="White flower" alt="Flower">
+	</a>
+</div>
+</div>
+
+<div class="footer">
+	<h2>Postal Address: Students' Gymkhana, Indian Institute of Technology Bombay, Powai, Mumbai 400076, India<br> Contact: +91-22-25768968</h2>
+</div>
+
+</body>
+</html>
